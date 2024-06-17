@@ -1,0 +1,44 @@
+﻿<Window x:Class="DateTimePicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DateTimePicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500" FontSize="20">
+    <Grid>
+        <Image Margin="5,10,3,2" Source="/pngtree-simple-light-vertical-background-picture-image_1625530.jpg" Stretch="UniformToFill"/>
+        <DatePicker x:Name="DateP" HorizontalAlignment="Left" Margin="40,157,0,0" VerticalAlignment="Top" Width="290" SelectedDateChanged="DatePicker_SelectedDateChanged" FontWeight="Bold" Background="#FF9E81A2"/>
+        <ComboBox x:Name="ComboB" HorizontalAlignment="Left" Margin="40,79,0,0" VerticalAlignment="Top" Width="290" IsEditable ="true">
+            <ComboBoxItem Content="6:00 am"/>
+            <ComboBoxItem Content="7:00 am"/>
+            <ComboBoxItem Content="8:00 am"/>
+            <ComboBoxItem Content="9:00 am"/>
+            <ComboBoxItem Content="10:00 am"/>
+            <ComboBoxItem Content="11:00 am"/>
+            <ComboBoxItem Content="12:00 pm"/>
+            <ComboBoxItem Content="1:00 pm"/>
+            <ComboBoxItem Content="2:00 pm"/>
+            <ComboBoxItem Content="3:00 pm"/>
+            <ComboBoxItem Content="4:00 pm"/>
+            <ComboBoxItem Content="5:00 pm"/>
+            <ComboBoxItem Content="6:00 pm"/>
+            <ComboBoxItem Content="7:00 pm"/>
+            <ComboBoxItem Content="8:00 pm"/>
+            <ComboBoxItem Content="9:00 pm"/>
+            <ComboBoxItem Content="10:00 pm"/>
+            <ComboBoxItem Content="11:00 pm"/>
+            <ComboBoxItem Content="12:00 am"/>
+            <ComboBoxItem Content="1:00 am"/>
+            <ComboBoxItem Content="2:00 am"/>
+            <ComboBoxItem Content="3:00 am"/>
+            <ComboBoxItem Content="4:00 am"/>
+            <ComboBoxItem Content="5:00 am"/>
+
+
+        </ComboBox>
+        <TextBlock x:Name="txtBlc" HorizontalAlignment="Left" Margin="40,217,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Seleccione una hora:" HorizontalAlignment="Left" Margin="40,37,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

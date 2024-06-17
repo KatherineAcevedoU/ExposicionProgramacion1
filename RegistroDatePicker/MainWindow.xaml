@@ -1,0 +1,24 @@
+﻿<Window x:Class="RegistroDatePicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroDatePicker"
+        mc:Ignorable="d"
+        Title="Uso Date Picker" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="38,58,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="38,92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="523" Height="36" FontSize="14"/>
+        <Label Content="Fecha de Nacimiento:" HorizontalAlignment="Left" Margin="38,148,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <DatePicker HorizontalAlignment="Left" Margin="38,187,0,0" VerticalAlignment="Top" Width="523" FontSize="18" FontWeight="Bold" Background="#FFC15DE0"/>
+
+
+        <Button Content="Registrarse" HorizontalAlignment="Left" Margin="172,324,0,0" VerticalAlignment="Top" FontSize="22" Height="56" Width="159" Click="Button_Click" Background="#FFD0A7A7" FontWeight="Bold"/>
+        <Label Content="Genero" HorizontalAlignment="Left" Margin="44,247,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="44,281,0,0" VerticalAlignment="Top" Width="517">
+            <ComboBoxItem Content="Femenino"/>
+            <ComboBoxItem Content="Masculino"/>
+        </ComboBox>
+
+    </Grid>
+</Window>
